@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  background-color: #fff;
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.container h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 50px;
+  padding-top: 6px;
+}
+
+form {
+  padding: 12px 8px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-top: 4px;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  height: 40px;
+  padding: 12px 8px;
+  margin-top: 3px;
+}
+
+input[type="file"] {
+  width: 100%;
+  display: block;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 12px 8px;
+  margin-top: 3px;
+}
+
+select {
+  width: 100%;
+  display: block;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 12px 8px;
+  margin-top: 3px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #0f8f57;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #8e8f57;
+}
